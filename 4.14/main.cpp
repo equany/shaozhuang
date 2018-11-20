@@ -15,6 +15,7 @@ int main()
     cin>>account;
 
     while (account != -1)
+    {
       cout<<"Enter beginning balance: ";
       cin>>balance;
       cout<<"Enter total charges: ";
@@ -31,4 +32,5 @@ int main()
           cout<<"Balance:     "<<balance<<endl;
           cout<<"Credit Limit Exceeded.";
           cout<<endl<<endl;
+    }
 }
